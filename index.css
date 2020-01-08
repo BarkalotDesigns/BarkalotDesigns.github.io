@@ -1,0 +1,135 @@
+.strokeText {
+   font-family: 'EB Garamond', serif;
+   text-shadow: 3px 3px 3px #000000;
+   text-shadow: -3px 3px 3px #000000;
+   text-shadow: 3px -3px 3px #000000;
+   text-shadow: -3px -3px 3px #000000;
+}
+
+p{
+	color: white;
+}
+
+.hidden{
+display:none;
+}
+
+.on{		
+	opacity: 0.5;
+}
+
+.off {	
+	opacity: 1.0;	
+}
+
+.buttonPanel{	
+	position:absolute;
+	width:25%;
+	height: 10%;	
+	left: 0px;
+	top: 0px;
+}
+
+.centerColumn{
+	width:80%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.products{
+	padding-top:15px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.filterImage{
+	width:60px;
+	height:60px;
+}
+
+.header{
+	font-size:24px;
+}
+
+.fgcon{
+	padding-top:5px;
+	color:#993300;
+}
+
+.hccon{
+	padding-top:5px;
+	color:#003366;
+}
+
+.info-box {
+     float: left;
+    display: block;
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    color: #fbb03b;
+}
+
+.thumbnail {
+     width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.title-head{
+	font-family: 'EB Garamond', serif;
+	font-size:22px;
+	color:#0071bc;
+	text-align: center;
+	font-weight:bold;
+}
+
+.title-body{
+	font-family: 'Lato', sans-serif;
+	color:#4d4d4d;
+}
+
+div.metal:before {
+    position: absolute;
+    right: -65px;
+    top: -65px;
+    transform: scale(0.45);
+}
+
+div.metal.copper:before {		
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Copper.png);
+	position:absolute;
+}
+
+div.metal.silver:before {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Silver.png);
+	position:absolute;
+	}
+
+div.metal.electrum:before  {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Electrum.png);
+	position:absolute;
+	}
+
+div.metal.gold:before  {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Gold.png);
+	position:absolute;
+	}
+
+div.metal.platinum:before  {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Platinum.png);
+	position:absolute;
+	}
+
+div.metal.mithral:before  {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Mithral.png);
+	position:absolute;
+	}
+
+div.metal.adamantine:before  {
+	content:url(https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Adamantine.png);
+	position:absolute;
+	}
